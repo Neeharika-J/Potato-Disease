@@ -38,7 +38,7 @@ I have used tensorflow in this project.
 The images are then **resized, rescaled and augmented** to increase the quality of training. They are then passed through convolutional and max pooling layers to extract features and finally flattened and fed to dense layers for *model learning*. *Adam* optimizer is used. This model gives prediction and the confidence level of the prediction.
 After training I got accuracy of 96% and loss of 0.076. On testing, I got accuracy of 94% and loss of 0.240 .
 
-<img src="images/early_blight.png" alt="Early Blight" width="300"/>
+<img src="https://github.com/Neeharika-J/Potato-Disease/blob/main/images/Traning_testing_graph.png" alt="Graph" width="50%"/>
 
 Then I have saved the model on my drive as a keras file(.keras)
 ```bash
